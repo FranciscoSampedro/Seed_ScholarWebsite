@@ -1597,7 +1597,7 @@ pre {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: rgb(214, 28, 28);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -1625,7 +1625,7 @@ pre {
     color: #6c757d;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: #6c757d; 
     opacity: 1; }
   .form-control::-ms-input-placeholder {
     color: #6c757d;
@@ -1634,12 +1634,12 @@ pre {
     color: #6c757d;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: #0c6fd1;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
   color: #495057;
-  background-color: #fff; }
+  background-color: rgb(236, 1, 1); }
 
 .form-control-file,
 .form-control-range {
@@ -9510,7 +9510,7 @@ textarea.form-control {
   padding-left: 0;
   padding-right: 0;
   background: transparent !important;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(255, 251, 251, 0.9) !important;
   font-size: 16px;
   border-radius: 0px;
   -webkit-box-shadow: none !important;
@@ -9528,7 +9528,7 @@ textarea.form-control {
     /* Firefox 18- */
     color: rgba(255, 255, 255, 0.9); }
   .appointment-form .form-control:focus, .appointment-form .form-control:active {
-    border-color: #fff; }
+    border-color: rgb(255, 255, 255); }
 
 .appointment-form textarea.form-control {
   height: inherit !important; }
